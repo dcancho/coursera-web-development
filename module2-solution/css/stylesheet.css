@@ -1,10 +1,32 @@
-* {
-    
-    text-align: center;
-    font-size: 16px;
+
+header {
+font:20px blue;
+margin: 50px 20px 30px 20px;
+text-align: center;
 }
 
-p {
-    
-    
+.container {
+    background-color: antiquewhite;
+    border-width: 5px;
+    padding: 5px;
+}
+
+/*desktop*/
+@media (min-width: 992px){
+
+section {
+    width: 30%;
+    float: left;
+}
+
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*mobile*/
+@media (max-width: 767px){
+
 }
