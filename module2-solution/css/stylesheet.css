@@ -1,25 +1,48 @@
+body {
+    font: 15px Helvetica, sans-serif;
+}
+
 header {
-    font:20px blue;
+    font:175% blue;
     margin: 50px 20px 30px 20px;
     text-align: center;
 }
-p {
-    font: 15px Helvetica, sans-serif;
-}
 .container {
+    font-size:125%;
     position: relative;
     background-color: antiquewhite;
     border: 2px solid black;
-    padding: 15px;
+    padding: 0px 0px 0px 0px;
     box-sizing: border-box;
 }
 h1{
-    border: 2px solid black;
-    font: 16px maroon;
-    position: absolute;
-    right:10px;
-    top:10px;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    position: top right; 
+
 }
+p {
+    text-align: justify;
+    padding: 0px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    clear:right;
+}
+
+/*mobile*/
+@media (max-width: 767px){
+    .container {
+        margin: 15px 15px 15px 15px;
+    }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
 /*desktop*/
 @media (min-width: 992px){
 
@@ -28,15 +51,5 @@ h1{
         float: left;
         margin: 15px 15px 15px 15px;
     }
-
-}
-
-/*tablet*/
-@media (min-width: 768px) and (max-width: 991px){
-
-}
-
-/*mobile*/
-@media (max-width: 767px){
 
 }
