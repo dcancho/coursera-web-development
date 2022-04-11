@@ -1,23 +1,33 @@
-
 header {
-font:20px blue;
-margin: 50px 20px 30px 20px;
-text-align: center;
+    font:20px blue;
+    margin: 50px 20px 30px 20px;
+    text-align: center;
 }
-
+p {
+    font: 15px Helvetica, sans-serif;
+}
 .container {
+    position: relative;
     background-color: antiquewhite;
-    border-width: 5px;
-    padding: 5px;
+    border: 2px solid black;
+    padding: 15px;
+    box-sizing: border-box;
 }
-
+h1{
+    border: 2px solid black;
+    font: 16px maroon;
+    position: absolute;
+    right:10px;
+    top:10px;
+}
 /*desktop*/
 @media (min-width: 992px){
 
-section {
-    width: 30%;
-    float: left;
-}
+    .container {
+        width: 30%;
+        float: left;
+        margin: 15px 15px 15px 15px;
+    }
 
 }
 
