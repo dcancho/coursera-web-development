@@ -14,8 +14,7 @@ header {
     padding: 0px 0px 0px 0px;
     box-sizing: border-box;
 }
-h1{
-    font-size:185%;
+.title{
     float: right;
     margin: 0px 0px 0px 0px;
     padding: 2px 2px 2px 2px;
