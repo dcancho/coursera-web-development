@@ -1,9 +1,8 @@
 body {
-    font: 15px Helvetica, sans-serif;
+    font: Helvetica, sans-serif;
 }
-
 header {
-    font:175% blue;
+    font:175%;
     margin: 50px 20px 30px 20px;
     text-align: center;
 }
@@ -30,7 +29,6 @@ p {
     margin: 0px 0px 0px 0px;
     clear:right;
 }
-
 /*mobile*/
 @media (max-width: 767px){
     .container {
@@ -42,7 +40,6 @@ p {
 @media (min-width: 768px) and (max-width: 991px){
 
 }
-
 /*desktop*/
 @media (min-width: 992px){
 
