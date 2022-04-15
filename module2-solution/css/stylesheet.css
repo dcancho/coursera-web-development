@@ -13,6 +13,7 @@ header {
     border: 2px solid black;
     padding: 0px 0px 0px 0px;
     box-sizing: border-box;
+    margin: 15px 15px 15px 15px;
 }
 .title{
     text-align: center;
@@ -32,30 +33,49 @@ p {
     margin: 0px 0px 0px 0px;
     clear:right;
 }
+div:nth-child(1) p.title
+{
+    background-color: #d4ba37;
+}
+div:nth-child(2) p.title
+{
+    background-color: #cf6155;
+}
+div:nth-child(3) p.title
+{
+    background-color: #85c24c;
+}
 
-@media (max-width: 767px){
+@media (min-width: 1px) and (max-width: 767px) {
+    .p {
+        width: 98%;
+        color: aqua;
+    }
+}
+
+@media (min-width: 992px) {
+
     .container {
-        margin: 15px 15px 15px 15px;
+         width: 30%;
+         float: left;
     }
 }
-@media (min-width: 768px) and (max-width: 991px){
-    section > div{
-        margin: 15px 15px 15px 15px;
-    }
-    section:nth-child(1) , section:nth-child(2)
-    {
-        float:left;
-    }
-    section:nth-child(3)
-    {
-        clear: left;
-    }
-}
-@media (min-width: 992px){
 
-   .container {
-        width: 30%;
+@media (min-width: 768px) and (max-width: 991px){
+    
+    div:nth-child(1) {
+        width: 45%;
         float: left;
-        margin: 15px 15px 15px 15px;
+    }
+    div:nth-child(2) {
+        width: 45%;
+        float: right;
+    }
+    div:nth-child(3) {
+        width: 97%;
+        float: left;
     }
 }
+
+
+
