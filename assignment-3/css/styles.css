@@ -13,3 +13,16 @@ h1 {
   margin: 20pt;
   padding: 15px;
 }
+.navbar {
+  padding-bottom: 15px;
+}
+.title {
+  font-size: 14pt;
+  font-weight: bold;
+}
+.expanded-list {
+  background-color: antiquewhite;
+}
+.navbar{
+  border-radius: 0;
+}
